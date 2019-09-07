@@ -26,7 +26,7 @@ The above task can be completed in two ways.
 
 one is by through using service
 second one is by using ui.
-clone the project : git clone git@github.com:KUMKIYAN/dev-here.git
+clone the project : git clone git@github.com:KUMKIYAN/CucumberMavenIntegration.git
 
 import this maven project into eclipse / intellij
 
