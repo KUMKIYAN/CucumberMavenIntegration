@@ -3,7 +3,7 @@ pipeline {
         stage('Example Build') {
             steps {
                 step{
-                    echo 'Hello, Maven'
+                    git clone https://github.com/KUMKIYAN/CucumberMavenIntegration.git
                 }
             }
         }
