@@ -6,7 +6,7 @@ pipeline {
                      git branch: 'master', url: "https://github.com/KUMKIYAN/CucumberMavenIntegration.git"
                 }
                 step{
-                     mvn test -Dtest=TestRunner
+                     mvn test
                 }
             }
         }
