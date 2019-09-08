@@ -3,7 +3,7 @@ pipeline {
         stage('Example Build') {
             steps {
                 step{
-                    git clone "https://github.com/KUMKIYAN/CucumberMavenIntegration.git"
+                     git branch: 'master', url: "https://github.com/KUMKIYAN/CucumberMavenIntegration.git"
                 }
             }
         }
